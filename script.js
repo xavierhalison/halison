@@ -22,4 +22,7 @@ window.addEventListener("load", () => {
     
     let btnGithub = document.getElementById("btn-github");
     btnGithub.addEventListener("click", () => { window.location = "https://github.com/xavierhalison" })
+
+    let btnDown = document.getElementById("btn-down");
+    btnDown.addEventListener("click", () => { window.location = "#sidebar" })
 });
