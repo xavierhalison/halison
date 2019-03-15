@@ -58,6 +58,7 @@ body, p {
 .declaration { color: #FFA630 }
 .string { color: #48E5C2 }
 .comment { color: #BAC1B8 }
+.aviso {     background-color: #FFA630;    color: black; display: block;  width: 420px}
 
 .editor {
   background-color: #352D39;
@@ -188,4 +189,10 @@ p {padding: 3px}
   .sidebar { padding: 80px 40px }
   .sidebar-title { display: none }
   .btn-down { display: none }
+}
+
+.aviso i {
+  color: black;
+  font-size: 15px;
+  margin: 0 10px;
 }
