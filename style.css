@@ -151,7 +151,7 @@
 
 @media screen and (min-width: 401px) and (max-width: 700px) {
   .card.card-code {
-    width: 80%;
+    width: 90%;
     height: 57%;
     font-size: 38px
   }
