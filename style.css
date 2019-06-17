@@ -141,31 +141,31 @@
   font-weight: bold
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .card.card-code {
-    width: 70%;
-    height: 58%;
-    font-size: 37px
+    width: 90%;
+    height: 50%;
+    font-size: 32px
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 900px) {
+@media screen and (min-width: 401px) and (max-width: 700px) {
   .card.card-code {
-    width: 55%;
+    width: 90%;
     height: 57%;
-    font-size: 38px
+    font-size: 35px
   }
 }
 
-@media screen and (min-width: 901px) and (max-width: 1200px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
   .card.card-code {
-    width: 40%;
+    width: 60%;
     height: 55%;
     font-size: 40px
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1001px) {
   .card.card-code {
     width: 35%;
     height: 55%;
