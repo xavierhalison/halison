@@ -1,0 +1,104 @@
+.bg-img {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.card-xp {
+    min-height: 270px
+}
+
+.main {
+    background-color: #111111EE;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.main > * {
+    align-self: center
+}
+
+#more, #readme, #experience, #contact, #begin {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center
+    }
+
+    .hello {
+        max-height: 20vh;
+        overflow: scroll;
+    }
+
+    .card-readme p, .card-readme p span{
+        font-size: 15px !important
+    }
+
+    .section.card {
+        height: 150vh;
+        width: 100%
+    }
+}
+
+.bg.color-1 {
+    background-color: #111111EE;
+}
+
+.bg.color-2 {
+    background-color: #036DC3DD
+}
+
+.bg.color-3 {
+    background-color: #FFFFFFEE
+}
+
+.txt.color-1 {
+    color: #111111 !important
+}
+
+.txt.color-2 {
+    color: #036DC3 !important
+}
+
+.txt.color-3 {
+    color: #FFFFFF !important
+}
+
+.txt.bold {
+    font-weight: 500 !important
+}
+
+.txt.justify {
+    text-align: justify
+}
+
+.txt.mono {
+    font-family: 'Ubuntu Mono', monospace; 
+    font-size: 25px
+}
+
+.txt.key {
+    font-weight: 900
+}
+
+.section {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:  column;
+    /* border-top: 5px solid white */
+}
